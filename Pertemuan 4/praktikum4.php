@@ -1,18 +1,22 @@
 <?php 
     require "tabung4.php";
-    //var_dump($_GET);
+    // $_GET['data'] = [
+    //     'nama' => 'Riris Amalia S',
+    //     'nim' => 192410101079,
+    // ]
+    // var_dump($_GET);
+    // var_dump($_POST);
+    // if (isset($_POST['submit'])) {
+    //     if (strlen($_POST['input']) > 0) {
+    //         echo "login berhasil!";
+    //     } else {
+    //         echo "Isi form terlebih dahulu!";
+    //     }
+    // };
     // if ($_SERVER['REQUEST_METHOD']==='POST'){
         // if (empty($_POST)){
         //     echo "kosong";
         // }
-    //
-    // if (isset($_POST['submit_btn'])) {
-    //     if (strlen($_POST['nuri']) > 0) {
-    //         echo "login !";
-    //     } else {
-    //         echo "masih kosong";
-    //     }
-    // } 
     $tabung = new Tabung;  
     if (isset($_POST['submit_btn'])){
        
